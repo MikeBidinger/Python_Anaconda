@@ -62,20 +62,20 @@ governance, and support.
 
 -   #### Using environments
 
-    |                                                                |                                                       |
-    | -------------------------------------------------------------- | ----------------------------------------------------- |
-    | Create a new environment named py35, install Python 3.5        | `conda create --name [ENV_NAME] python=3.5`           |
-    | Activate the new environment to use it                         | `activate [ENV_NAME]`                                 |
-    | Get a list of all my environments, (\* = active environment)   | `conda env list`                                      |
-    | Make exact copy of an environment                              | `conda create --clone [ENV_NAME] --name [ENV_NAME_2]` |
-    | List all packages and versions installed in active environment | `conda list`                                          |
-    | List the history of each change to the current environment     | `conda list --revisions`                              |
-    | Restore environment to a previous revision                     | `conda install --revision 2`                          |
-    | Save environment to a text file                                | `conda list --explicit > [ENV_NAME].txt`              |
-    | Delete an environment and everything in it                     | `conda env remove --name [ENV_NAME]`                  |
-    | Deactivate the current environment                             | `deactivate`                                          |
-    | Create environment from a text file                            | `conda env create --file [ENV_NAME].txt`              |
-    | Stack commands                                                 | `conda create --name [ENV_NAME] [PACKAGE_NAME]`       |
+|                                                                |                                                       |
+| -------------------------------------------------------------- | ----------------------------------------------------- |
+| Create a new environment named py35, install Python 3.5        | `conda create --name [ENV_NAME] python=3.5`           |
+| Activate the new environment to use it                         | `activate [ENV_NAME]`                                 |
+| Get a list of all my environments, (\* = active environment)   | `conda env list`                                      |
+| Make exact copy of an environment                              | `conda create --clone [ENV_NAME] --name [ENV_NAME_2]` |
+| List all packages and versions installed in active environment | `conda list`                                          |
+| List the history of each change to the current environment     | `conda list --revisions`                              |
+| Restore environment to a previous revision                     | `conda install --revision 2`                          |
+| Save environment to a text file                                | `conda list --explicit > [ENV_NAME].txt`              |
+| Delete an environment and everything in it                     | `conda env remove --name [ENV_NAME]`                  |
+| Deactivate the current environment                             | `deactivate`                                          |
+| Create environment from a text file                            | `conda env create --file [ENV_NAME].txt`              |
+| Stack commands                                                 | `conda create --name [ENV_NAME] [PACKAGE_NAME]`       |
 
 -   #### Finding conda packages
 
