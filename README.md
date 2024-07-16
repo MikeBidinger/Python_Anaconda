@@ -51,7 +51,7 @@ governance, and support.
 
 -   #### Conda Basics
 
-|                                                 |                                                       |
+| Description                                     | Command                                               |
 | ----------------------------------------------- | ----------------------------------------------------- |
 | Verify conda is installed, check version number | `conda info`                                          |
 | Update conda to the current version             | `conda update conda`                                  |
@@ -62,7 +62,7 @@ governance, and support.
 
 -   #### Using environments
 
-|                                                                |                                                       |
+| Description                                                    | Command                                               |
 | -------------------------------------------------------------- | ----------------------------------------------------- |
 | Create a new environment named py35, install Python 3.5        | `conda create --name [ENV_NAME] python=3.5`           |
 | Activate the new environment to use it                         | `activate [ENV_NAME]`                                 |
@@ -79,14 +79,14 @@ governance, and support.
 
 -   #### Finding conda packages
 
-|                                      |                                                      |
+| Description                          | Command                                              |
 | ------------------------------------ | ---------------------------------------------------- |
 | Use conda to search for a package    | `conda search [PACKAGE_NAME]`                        |
 | See list of all packages in Anaconda | https://docs.anaconda.com/anaconda/packages/pkg-docs |
 
 -   #### Installing and updating packages
 
-|                                                                        |                                                                  |
+| Description                                                            | Command                                                          |
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | Install a new package in the active environment                        | `conda install [PACKAGE_NAME]`                                   |
 | Run an installed package                                               | `[PACKAGE_NAME]`                                                 |
@@ -98,7 +98,7 @@ governance, and support.
 
 -   #### Managing multiple versions of Python
 
-|                                                                                     |                                             |
+| Description                                                                         | Command                                     |
 | ----------------------------------------------------------------------------------- | ------------------------------------------- |
 | Install different version of Python in a new environment named py34                 | `conda create --name [ENV_NAME] python=3.4` |
 | Switch to the new environment that has a different version of Python                | `activate [ENV_NAME]`                       |
