@@ -49,16 +49,16 @@ governance, and support.
 
 ## [Conda Cheatsheet (PDF)](conda-cheatsheet.pdf)
 
--   #### Conda Basics
+#### Conda Basics
 
-    |                                                 |                                                       |
-    | ----------------------------------------------- | ----------------------------------------------------- |
-    | Verify conda is installed, check version number | `conda info`                                          |
-    | Update conda to the current version             | `conda update conda`                                  |
-    | Install a package included in Anaconda          | `conda install [PACKAGE_NAME]  `                      |
-    | Run a package after install, example Spyder\*   | `spyder`                                              |
-    | Update any installed program                    | `conda update [PACKAGE_NAME]`                         |
-    | Command line help                               | `[COMMAND_NAME] --help` (e.g. `conda install --help`) |
+|                                                 |                                                       |
+| ----------------------------------------------- | ----------------------------------------------------- |
+| Verify conda is installed, check version number | `conda info`                                          |
+| Update conda to the current version             | `conda update conda`                                  |
+| Install a package included in Anaconda          | `conda install [PACKAGE_NAME]  `                      |
+| Run a package after install, example Spyder\*   | `spyder`                                              |
+| Update any installed program                    | `conda update [PACKAGE_NAME]`                         |
+| Command line help                               | `[COMMAND_NAME] --help` (e.g. `conda install --help`) |
 
 -   #### Using environments
 
