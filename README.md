@@ -49,7 +49,7 @@ governance, and support.
 
 ## [Conda Cheatsheet (PDF)](conda-cheatsheet.pdf)
 
-#### Conda Basics
+-   #### Conda Basics
 
 |                                                 |                                                       |
 | ----------------------------------------------- | ----------------------------------------------------- |
@@ -79,41 +79,41 @@ governance, and support.
 
 -   #### Finding conda packages
 
-    |                                      |                                                      |
-    | ------------------------------------ | ---------------------------------------------------- |
-    | Use conda to search for a package    | `conda search [PACKAGE_NAME]`                        |
-    | See list of all packages in Anaconda | https://docs.anaconda.com/anaconda/packages/pkg-docs |
+|                                      |                                                      |
+| ------------------------------------ | ---------------------------------------------------- |
+| Use conda to search for a package    | `conda search [PACKAGE_NAME]`                        |
+| See list of all packages in Anaconda | https://docs.anaconda.com/anaconda/packages/pkg-docs |
 
 -   #### Installing and updating packages
 
-    |                                                                        |                                                                  |
-    | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
-    | Install a new package in the active environment                        | `conda install [PACKAGE_NAME]`                                   |
-    | Run an installed package                                               | `[PACKAGE_NAME]`                                                 |
-    | Install a new package in a different environment                       | `conda install --name [ENV_NAME] [PACKAGE_NAME]`                 |
-    | Update a package in the current environment                            | `conda update [PACKAGE_NAME]`                                    |
-    | Install a package from a specific channel                              | `conda install --channel [CHANNEL_NAME] [PACKAGE_NAME]`          |
-    | Install a package directly from PyPI into the current active using pip | `pip install [PACKAGE_NAME]`                                     |
-    | Remove one or more packages from a specific environment                | `conda remove --name [ENV_NAME] [PACKAGE_NAME] [PACKAGE_NAME_2]` |
+|                                                                        |                                                                  |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Install a new package in the active environment                        | `conda install [PACKAGE_NAME]`                                   |
+| Run an installed package                                               | `[PACKAGE_NAME]`                                                 |
+| Install a new package in a different environment                       | `conda install --name [ENV_NAME] [PACKAGE_NAME]`                 |
+| Update a package in the current environment                            | `conda update [PACKAGE_NAME]`                                    |
+| Install a package from a specific channel                              | `conda install --channel [CHANNEL_NAME] [PACKAGE_NAME]`          |
+| Install a package directly from PyPI into the current active using pip | `pip install [PACKAGE_NAME]`                                     |
+| Remove one or more packages from a specific environment                | `conda remove --name [ENV_NAME] [PACKAGE_NAME] [PACKAGE_NAME_2]` |
 
 -   #### Managing multiple versions of Python
 
-    |                                                                                     |                                             |
-    | ----------------------------------------------------------------------------------- | ------------------------------------------- |
-    | Install different version of Python in a new environment named py34                 | `conda create --name [ENV_NAME] python=3.4` |
-    | Switch to the new environment that has a different version of Python                | `activate [ENV_NAME]`                       |
-    | Show the locations of all versions of Python that are currently in the path[^first] | `where python`                              |
-    | Show version information for the current active Python                              | `python --version`                          |
+|                                                                                     |                                             |
+| ----------------------------------------------------------------------------------- | ------------------------------------------- |
+| Install different version of Python in a new environment named py34                 | `conda create --name [ENV_NAME] python=3.4` |
+| Switch to the new environment that has a different version of Python                | `activate [ENV_NAME]`                       |
+| Show the locations of all versions of Python that are currently in the path[^first] | `where python`                              |
+| Show version information for the current active Python                              | `python --version`                          |
 
 -   #### Specifying version numbers [^second]
 
-    | Contraint type           | Specification                           | Result                               |
-    | ------------------------ | --------------------------------------- | ------------------------------------ |
-    | Fuzzy                    | `numpy=1.11`                            | 1.11.0, 1.11.1, 1.11.2, 1.11.18 etc. |
-    | Exact                    | `numpy==1.11`                           | 1.11.0                               |
-    | Greater than or equal to | `"numpy>=1.11"`                         | 1.11.0 or higher                     |
-    | OR                       | <code>"numpy=1.11.1&#124;1.11.3"</code> | 1.11.1, 1.11.3                       |
-    | AND                      | `"numpy>=1.8,<2"`                       | 1.8, 1.9, not 2.0                    |
+| Contraint type           | Specification                           | Result                               |
+| ------------------------ | --------------------------------------- | ------------------------------------ |
+| Fuzzy                    | `numpy=1.11`                            | 1.11.0, 1.11.1, 1.11.2, 1.11.18 etc. |
+| Exact                    | `numpy==1.11`                           | 1.11.0                               |
+| Greater than or equal to | `"numpy>=1.11"`                         | 1.11.0 or higher                     |
+| OR                       | <code>"numpy=1.11.1&#124;1.11.3"</code> | 1.11.1, 1.11.3                       |
+| AND                      | `"numpy>=1.8,<2"`                       | 1.8, 1.9, not 2.0                    |
 
 ## [Automated Conda environment configuration (YML)](environment.yml)
 
