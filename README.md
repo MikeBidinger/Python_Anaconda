@@ -137,7 +137,7 @@ dependencies:
 Use the following command to create the Conda environment from the
 'environment.yml' file:
 
-```bash
+```console
 conda env create -f environment.yml
 ```
 
@@ -145,7 +145,7 @@ conda env create -f environment.yml
 
 Use the following command to activate the Conda environment:
 
-```bash
+```console
 conda activate [myenv]
 ```
 
@@ -155,7 +155,7 @@ It is also possible to export an existing Conda environment to an
 'environment.yml' file. This will export its dependencies and can be used with
 the following command:
 
-```bash
+```console
 conda env export > environment.yml
 ```
 
