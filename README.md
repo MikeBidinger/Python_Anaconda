@@ -9,6 +9,19 @@ Homepage: https://www.anaconda.com/
 
 Download: https://www.anaconda.com/download
 
+## Content:
+
+-   [Conda Cheatsheet](#conda-cheatsheet)
+
+    Cheatsheet with terminal commands for Anaconda.
+
+-   [Automated Conda environment configuration (YML)](#automated-conda-environment-configuration-yml)
+
+    Automated Anaconda environment creation with the use of a YAML
+    configuration file. This file should include the name of the environment
+    (`myenv`) and a list of dependencies. Optional are channels when needed and
+    the python and dependencies versions for the environment.
+
 ## Key Features
 
 **Package Management**: Anaconda includes conda, a package manager that helps
@@ -33,19 +46,6 @@ it accessible to a wide range of users.
 **Commercial and Free Versions**: Anaconda offers a free, open-source version
 as well as enterprise versions with additional features for security,
 governance, and support.
-
-## Content:
-
--   Conda Cheatsheet(#conda-cheatsheet)
-
-    Cheatsheet with terminal commands for Anaconda.
-
--   [Automated Conda environment configuration (YML)](#automated-conda-environment-configuration-yml)
-
-    Automated Anaconda environment creation with the use of a YAML
-    configuration file. This file should include the name of the environment
-    (`myenv`) and a list of dependencies. Optional are channels when needed and
-    the python and dependencies versions for the environment.
 
 ## Conda Cheatsheet
 
