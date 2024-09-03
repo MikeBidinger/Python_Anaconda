@@ -36,7 +36,7 @@ governance, and support.
 
 ## Content:
 
--   [Conda Cheatsheet (PDF)](conda-cheatsheet.pdf)
+-   Conda Cheatsheet(#conda-cheatsheet)
 
     Cheatsheet with terminal commands for Anaconda.
 
@@ -47,7 +47,17 @@ governance, and support.
     (`myenv`) and a list of dependencies. Optional are channels when needed and
     the python and dependencies versions for the environment.
 
-## [Conda Cheatsheet (PDF)](conda-cheatsheet.pdf)
+## Conda Cheatsheet
+
+[Conda Cheatsheet PDF](conda-cheatsheet.pdf)
+
+```console
+conda create --name [ENV_NAME] python=3.11
+```
+
+```console
+conda env remove --name [ENV_NAME]
+```
 
 -   #### Conda Basics
 
